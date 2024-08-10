@@ -1,0 +1,21 @@
+@import "variables.scss";
+
+header{
+    
+    @include flex(row,space-between);
+    padding-bottom: 2rem;
+    h1{
+        font-weight: bolder;
+    }
+    nav ul{
+        list-style: none;
+        @include flex(row,space-between,space-between);
+        column-gap: 2rem;
+        li{
+            &:hover{
+                color: $Soft-red;
+                cursor: pointer;
+            }
+        }
+    }
+}
