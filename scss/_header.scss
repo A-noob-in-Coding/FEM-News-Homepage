@@ -18,4 +18,11 @@ header{
             }
         }
     }
+    .menu-btn{
+        cursor: pointer;
+        .close{
+            display: none;
+        }
+        display: none;
+    }
 }
