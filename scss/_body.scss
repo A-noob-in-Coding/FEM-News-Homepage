@@ -151,9 +151,7 @@ main{
         padding: 1rem 0.5rem 0rem 0.5rem;
     }
 
-    .change{
-        display: none;
-    }
+    
     
     header {
         .menu-btn{
@@ -163,16 +161,16 @@ main{
             display: block;
         }
         nav{
-
             position: fixed;
             top: 0;
             right: 0;
-            min-width: 80vw;
+            width: 0;
             min-height: 100vh;
             z-index:1;
             display: flex;
             align-items: flex-start;
             background-color: $Off-white;
+            transition: 0.5s;
             ul{
                 padding-top: 10rem;
             padding-left: 2rem;
@@ -185,9 +183,12 @@ main{
     }
     }
     main{
+        .headline{
+            gap: 2rem;
+        }
         margin-bottom: 1rem;
         min-height: 100vh;
-        gap: 1rem;
+        gap: 2rem;
         display: flex;
         flex-direction: column;
         .headline{
