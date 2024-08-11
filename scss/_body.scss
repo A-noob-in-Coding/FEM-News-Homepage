@@ -128,6 +128,7 @@ main{
             grid-area: num;
         }
         h4{
+            padding-top: 1rem;
             font-weight: bolder;
             grid-area: head;
             &:hover{
@@ -148,7 +149,7 @@ main{
         max-width: 100vw;
         display: flex;
         flex-direction: column;
-        padding: 1rem 0.5rem 0rem 0.5rem;
+        padding: 1rem 1rem 1rem 1rem;
     }
 
     
@@ -194,6 +195,11 @@ main{
         .headline{
             display: flex;
             flex-direction: column;
+        }
+        .new-section{
+            h2{
+                padding-bottom: 1rem;
+            }
         }
     }
     
